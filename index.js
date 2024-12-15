@@ -42,7 +42,6 @@ const loadImages = () => {
 
 btn.addEventListener("click", openModal);
 
-console.log(loadImages());
 closeBtn.addEventListener("click", closeModal);
 
 window.addEventListener("click", (event) => {
