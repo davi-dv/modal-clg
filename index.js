@@ -4,6 +4,7 @@ const closeBtn = document.querySelector(".close-button");
 
 const openModal = () => {
   modal.classList.add("show-modal");
+  loadImages();
 };
 
 const closeModal = () => {
